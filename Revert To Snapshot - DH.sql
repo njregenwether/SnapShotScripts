@@ -1,0 +1,7 @@
+USE master;
+
+DECLARE  @DBNAME nvarchar(255) = 'BBInfinity'
+DECLARE @SNAPSHOTNAME nvarchar(255) = 'BBInfinity_Fresh'
+
+
+exec REVERTTOSNAPSHOTTHEDB @DBNAME , @SNAPSHOTNAME 
