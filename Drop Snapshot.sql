@@ -1,6 +1,6 @@
 use master;
 
-DECLARE @snapshotname nvarchar(255) = 'BBINFINITY_SS_WITHDEDUPE'
+DECLARE @snapshotname nvarchar(255) = 'BBInfinity_Snapshot'
 
 
 
